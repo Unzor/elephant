@@ -10,7 +10,13 @@ if (!n.endsWith(".clj")) {
   if (!fs.existsSync(n)) {
       n = n + ".clj";
   }
+  if (n == ".") {
+  if (fs.existsSync("main.clj")) {
+n = "main.clj";
+  }
 }
+}
+
 f = fs.readFileSync(n).toString();  
 clojure.run(f);
 } else {
