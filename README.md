@@ -1,6 +1,8 @@
 # elephant
 A Clojure alternative runtime written in Node.js that includes a package manager.
 
+Erpi repo [here.](https://github.com/Unzor/erpi)
+
 # Usage
 First, install Elephant (comes packed with its package manager, erpi):
 ```
